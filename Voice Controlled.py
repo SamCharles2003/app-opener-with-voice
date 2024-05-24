@@ -5,11 +5,11 @@ import pyaudio
 from AppOpener import give_appnames,open,close
 
 
-model = Model(r"C:\Users\sam charles\PycharmProjects\vosk-model-en-in-0.5")
+model = Model(r"locate your vosk model\vosk-model-en-in-0.5")
 recognizer = KaldiRecognizer(model, 16000)
 
 
-assistance_name="SAM"
+assistance_name="ASSISTANT"
 action_list=["OPEN","CLOSE"]
 
 engine = pyttsx3.init()
